@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseDateTime">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="21:20"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="19:00"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button15"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:text="15:30"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="11:30"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/button15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="@color/white"
+        android:text="12:45"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="@color/white"
+        android:text="13:20"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnBackAddMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        app:backgroundTint="#00FFFFFF"
+        app:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="75dp"
+        android:text="Choose Date"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView3"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="SAT 21"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp"
+                app:strokeColor="#FFAB00"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="SUN 22"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp"
+                app:strokeColor="#FFAB00"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="MON 23"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp"
+                app:strokeColor="#FFAB00"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="TUE 24"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp"
+                app:strokeColor="#FFAB00"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="WED 25"
+                android:textColor="@color/black"
+                app:cornerRadius="15dp"
+                app:strokeColor="#FFAB00"
+                app:strokeWidth="1dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:text="Choose Time"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView3" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/white"
+        android:text="09:00"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/white"
+        android:text="08:20"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/white"
+        android:text="10:10"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:strokeColor="#FFAB00"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnNextMoviesToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="133dp"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>
